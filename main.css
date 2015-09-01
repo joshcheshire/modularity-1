@@ -1,4 +1,109 @@
-.mid-row{
-	border-top: solid;
-	border-bottom: solid;
+.datatable {
+	width: 100%;
+
 }
+
+.datatable tr{
+	border-bottom: 1px solid #cccccc;
+
+}
+
+.datatable .finalrow{
+	border-bottom: 0px solid #cccccc
+}
+
+.datatable td{
+	padding: 5px;
+}
+
+.stats{
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	width: 25%;
+}
+
+.stats .numero{
+	font-size: 30px;
+	font-weight: 700;
+
+}
+
+.stats td{
+	padding: 18px;
+	text-align: center;
+}
+
+.belownumero{
+	color: #808080;
+	font-size: 10px;
+
+}
+.barchart{
+	width: 100%;
+}
+
+.barchart th{
+	width: 15%;
+}
+
+.barchart div{
+	background-color: #6495ed;
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-left: 3px
+}
+
+/*.lightbox{
+	position: fixed;
+	top: 0px;	
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, .75);
+
+}*/
+/*.content{
+	position: absolute;
+	background-color: white;
+	top: 40%;
+	left: 15%;
+	right: 15%;
+	border-radius: 5px;
+	padding: 20px;
+
+}
+
+.lightbox a{
+	background-color: #ff8585;
+	display: inline-block;
+	float:right;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+	border-radius: 5px; 
+}*/
+
+.floater{
+	float: left;
+	padding-right: 10px;
+}
+
+.clear{
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,20 +19,20 @@
 	    		<p class="instruction-text">Style a table full of data so that it looks nicer than the brower defaults.</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
-							<tr class= "top-row">
+						<table class="datatable">
+							<tr>
 								<td>0</td>
 								<td>Sean</td>
 								<td>Daaken</td>
 								<td>@seandaken</td>
 							</tr>
-							<tr class= "mid-row">
+							<tr>
 								<td>1</td>
 								<td>Raine</td>
 								<td>Lourie</td>
 								<td>@metaraine</td>
 							</tr>
-							<tr class= "bottom-row">
+							<tr class= "finalrow">
 								<td>2</td>
 								<td>Matt</td>
 								<td>Null</td>
@@ -45,7 +45,7 @@
 	    		<p class="instruction-text">It should also handle header rows...</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
+						<table class="datatable">
 							<thead>
 								<tr>
 									<th>#</th>
@@ -67,7 +67,7 @@
 									<td>Lourie</td>
 									<td>@metaraine</td>
 								</tr>
-								<tr>
+								<tr class="finalrow">
 									<td>2</td>
 									<td>Matt</td>
 									<td>Null</td>
@@ -86,12 +86,12 @@
 	    		<p class="instruction-text">Three columns, three prominent numbers, three small labels</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="stats">
 			    		<tbody>
 			    			<tr>
-			    				<td><div>7</div><div>followers</div></td>
-			    				<td><div>59</div><div>starred</div></td>
-			    				<td><div>28</div><div>following</div></td>
+			    				<td><div class="numero">7</div><div class="belownumero">followers</div></td>
+			    				<td><div class="numero">59</div><div class="belownumero">starred</div></td>
+			    				<td><div class="numero">28</div><div class="belownumero">following</div></td>
 			    			</tr>
 			    		</tbody>
 			    	</table>
@@ -105,7 +105,7 @@
 	    		<p class="instruction-text">Bar widths are set in the HTML as if they were populated from the back-end. Everything else should be styled with CSS.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="barchart">
 			    		<tr>
 			    			<th>Javascript</th>
 			    			<td><div style="width: 99%">21%</div></td>
@@ -158,8 +158,8 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<div>
-			    		<div>
-				    		<div>
+			    		<div class="lightbox">
+				    		<div class="content">
 					    		<h3>Hello</h3>
 						    	<p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears. Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
 						    	<div>
@@ -178,8 +178,8 @@
 	    		<p class="instruction-text">A media block is a left-floated image with some content beside it. Think Facebook updates.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<img src="http://placehold.it/50">
-			    	<p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+			    	<img class="floater" src="http://placehold.it/50">
+			    	<p class="clear">Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
 				    <!-- End editable area -->
 			    </div>
 
@@ -188,11 +188,11 @@
 		    	<!-- Edit here -->
 					<div class="instruction-answer">
 			    	<div>
-				    	<img src="http://placehold.it/50">
+				    	<img class="floater" src="http://placehold.it/50">
 				    </div>
 			    	<div>
 				    	<h2>Cupcake Ipsum</h2>
-				    	<p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+				    	<p class="clear">Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
 				    </div>
 				    <!-- End editable area -->
 				  </div>
@@ -202,24 +202,24 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<div>
-				    	<img src="http://placehold.it/50">
+				    	<img class="floater" src="http://placehold.it/50">
 				    </div>
-			    	<div>
+			    	<div class="clear">
 				    	<h2>Cupcake Ipsum</h2>
-				    	<p>Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+				    	<p >Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
 
-				    	<div>
-					    	<img src="http://placehold.it/32">
+				    	<div >
+					    	<img class="floater" src="http://placehold.it/32">
 					    </div>
-				    	<div>
+				    	<div class="clear">
 					    	<h2>I like cupcakes!</h2>
 					    	<p>Cupcake ipsum dolor sit amet caramels jelly beans. Faworki donut applicake cookie. Apple pie wafer gummies biscuit cupcake gummies pastry.</p>
 					    </div>
 
-				    	<div>
-					    	<img src="http://placehold.it/32">
+				    	<div >
+					    	<img class="floater" src="http://placehold.it/32">
 					    </div>
-				    	<div>
+				    	<div class="clear">
 					    	<h2>I like cupcakes, too!</h2>
 					    	<p>Cupcake ipsum dolor sit amet donut lemon drops carrot cake topping bonbon powder sweet roll. Lollipop jujubes bonbon chupa chups jelly beans.</p>
 					    </div>
